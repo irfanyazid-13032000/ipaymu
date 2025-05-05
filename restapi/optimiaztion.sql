@@ -1,3 +1,6 @@
+CREATE INDEX idx_customers_city ON Customers(city);
+
+
 WITH FilteredCustomers AS (
   SELECT customer_id, customer_name
   FROM Customers
