@@ -27,4 +27,4 @@ function longestConsecutive(nums) {
 // const input = [100, 4, 200, 1, 3, 2];
 const input= [1,2,3,8];
 const output = longestConsecutive(input);
-console.log(output); // Output: 4
+console.log(output); // Output: 3
